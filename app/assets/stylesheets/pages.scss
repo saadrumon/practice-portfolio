@@ -125,7 +125,7 @@ a.btn:hover, .nav li a:hover, .nav-btn:hover {
 }
 
 .home .jumbotron {
-  background-image:image-url('bg.png');
+  background-image:image-url('image-000.jpg');
   background-size:cover;
   min-height:600px;
   width:100%
@@ -235,6 +235,10 @@ a.btn:hover, .nav li a:hover, .nav-btn:hover {
 
 .right {
   float:right
+}
+
+.thumbnail img {
+  width: 100%;
 }
 
 @media screen and (max-width: 800px) {
