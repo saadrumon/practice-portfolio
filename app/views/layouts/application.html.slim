@@ -18,15 +18,15 @@ html
           .menu.col-xs-8
             ul
               li
-                a href="/"  Welcome
+                = link_to 'Welcome', root_path
               li
-                a href="portfolio"  Portfolio
+                = link_to 'Portfolio', portfolio_path
               li
-                a href="#"  Blog
+                = link_to 'Blog', '#'
               li
-                a href="#"  About
+                = link_to 'About', '#'
               li
-                a href="#"  Contact
+                = link_to 'Contact', '#'
           span.name.col-xs-4
             h1 Sa-ad Mahmud
     = yield
